@@ -1,0 +1,27 @@
+.boton{
+    margin: 50px;
+    padding: 30px;
+    background-color: #9c64a6;
+    border-radius: 10px;
+    border: 0px;
+    color: white;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.texto{
+    color: #9c64a6; 
+    font-weight: 1000;
+    font-size: 100px;
+}
+
+.formu{
+    max-width: 400px;
+    margin: auto;
+}
+
+.centrar{
+    text-align: center;
+    justify-content: center;
+    
+}
