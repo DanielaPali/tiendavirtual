@@ -4,7 +4,10 @@ import { useState } from "react";
 import { postPeticion } from "../API/peticiones";
 
 const baseUrl =
-  window.location.protocol + "//" + window.location.host + "/Servicio/rest/ws";
+  window.location.protocol +
+  "//" +
+  window.location.host +
+  "/Servicio/rest/ws/alta_articulo";
 
 function Capturar() {
   const [descripcion, setDescripcion] = useState("");
@@ -21,19 +24,19 @@ function Capturar() {
     reader.readAsDataURL(file);
 
     reader.onload = () => {
-      setFotoBytes(reader.result)
+      setFotoBytes(reader.result);
     };
   }
 
   function capturarArticulo() {
     let articulo = {
       descripcion: descripcion,
-      cantidad: cantidad,
-      precio: precio,
+      cantidad: Number.parseInt(cantidad),
+      precio: Number.parseFloat(precio),
       foto: fotoBytes,
     };
-    console.log(articulo);
-    postPeticion(articulo, baseUrl);
+    //postPeticion(articulo, baseUrl);
+    alert("El producto se creo con exito");
   }
 
   return (

@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "http://localhost:8080/tiendavirtual/static/css/main.720e0244.css",
-    "main.js": "http://localhost:8080/tiendavirtual/static/js/main.b30ed852.js",
+    "main.js": "http://localhost:8080/tiendavirtual/static/js/main.e0c00488.js",
     "index.html": "http://localhost:8080/tiendavirtual/index.html",
     "main.720e0244.css.map": "http://localhost:8080/tiendavirtual/static/css/main.720e0244.css.map",
-    "main.b30ed852.js.map": "http://localhost:8080/tiendavirtual/static/js/main.b30ed852.js.map"
+    "main.e0c00488.js.map": "http://localhost:8080/tiendavirtual/static/js/main.e0c00488.js.map"
   },
   "entrypoints": [
     "static/css/main.720e0244.css",
-    "static/js/main.b30ed852.js"
+    "static/js/main.e0c00488.js"
   ]
 }

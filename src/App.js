@@ -6,11 +6,11 @@ import Comprar from "./Componentes/Comprar";
 
 function App() {
   return (
-    <BrowserRouter basename={process.env.REACT_APP_ROUTER_BASE || ""}>
+    <BrowserRouter basename={'/tiendavirtual'}>
       <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="comprar" element={<Comprar />} />
-        <Route path="capturar" element={<Capturar />} />
+        <Route path='/' element={<Home />} />
+        <Route path='/comprar' element={<Comprar />} />
+        <Route path='/capturar' element={<Capturar />} />
       </Routes>
     </BrowserRouter>
   );

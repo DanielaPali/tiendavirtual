@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/tiendavirtual/static/css/main.720e0244.css",
+    "main.js": "/tiendavirtual/static/js/main.20804505.js",
+    "index.html": "/tiendavirtual/index.html",
+    "main.720e0244.css.map": "/tiendavirtual/static/css/main.720e0244.css.map",
+    "main.20804505.js.map": "/tiendavirtual/static/js/main.20804505.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.720e0244.css",
+    "static/js/main.20804505.js"
+  ]
+}
