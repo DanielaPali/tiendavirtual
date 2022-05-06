@@ -4,7 +4,7 @@ function Home() {
   const navigate = useNavigate();
 
   return (
-    <div className="App">
+    <div className="app">
       <h1 className="texto">Tienda Virtual</h1>
 
       <button className="boton" onClick={() => {navigate('capturar')}}>
